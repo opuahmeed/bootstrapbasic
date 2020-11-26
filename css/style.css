@@ -1,0 +1,51 @@
+
+/*--------------------------------
+---Theme CSS Template----
+--------------------------------*/
+
+[id*="-error"]{
+	color:red;
+	float:left;
+	margin-top:10px;
+}
+/* --- Menu Part --- */
+#main-nav a{
+	transition: all .7s;
+}
+#main-nav ul li a:hover,
+#main-nav ul li a.active{
+	background-color:black;
+}
+/* --- Home Part --- */
+#home{
+	background-image:url('../images/banner3.jpg');
+}
+/* --- Service Part --- */
+#service{
+	background-image:url('../images/serve2.jpg');
+}
+/* --- Review Part --- */
+#review{
+	background-image:url('../images/stats1.jpg');
+}
+/* --- Contact Part --- */
+#Contact{
+	background-image:url('../images/contact3.jpg');
+}
+/* --- Social Part --- */
+#social-link ul li{
+	margin-right:12px;
+}
+#social-link ul li a{
+	height:2.45rem;
+	width:2.5rem;
+}
+
+/* --------------- Media Query -------------- */
+@media(max-width:768px){
+.h5-sm{
+	font-size:1.25rem;
+}
+.h6-sm{
+	font-size:1rem;
+}
